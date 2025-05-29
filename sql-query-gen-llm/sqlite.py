@@ -17,11 +17,11 @@ cursor.execute(table_info)
 
 ## Insert Some more records
 
-cursor.execute('''Insert Into STUDENT values('Krish','Data Science','A',90)''')
-cursor.execute('''Insert Into STUDENT values('Sudhanshu','Data Science','B',100)''')
-cursor.execute('''Insert Into STUDENT values('Darius','Data Science','A',86)''')
-cursor.execute('''Insert Into STUDENT values('Vikash','DEVOPS','A',50)''')
-cursor.execute('''Insert Into STUDENT values('Dipesh','DEVOPS','A',35)''')
+cursor.execute('''Insert Into STUDENT values('John','Data Science','A',90)''')
+cursor.execute('''Insert Into STUDENT values('Alex','Data Science','B',100)''')
+cursor.execute('''Insert Into STUDENT values('Kelly','Data Science','A',86)''')
+cursor.execute('''Insert Into STUDENT values('Smita','DEVOPS','A',50)''')
+cursor.execute('''Insert Into STUDENT values('Ayan','DEVOPS','A',45)''')
 
 ## Disspaly ALl the records
 
