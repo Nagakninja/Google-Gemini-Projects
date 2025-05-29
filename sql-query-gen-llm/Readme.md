@@ -29,9 +29,17 @@ This project is a Streamlit web application that enables users to ask questions 
 
 ---
 
-## File Structure
-sql-query-gen-llm/ │ ├── .env # Environment variables (API keys) ├── .gitignore ├── requirements.txt # Python dependencies ├── sql.py # Main Streamlit application ├── sqlite.py # Script to initialize the database └── student.db # SQLite database file (auto-created)
-
+## Code Structure
+```
+sql-query-gen-llm/ 
+ │
+ ├── .env # Environment variables (API keys) 
+ ├── .gitignore 
+ ├── requirements.txt # Python dependencies 
+ ├── sql.py # Main Streamlit application 
+ ├── sqlite.py # Script to initialize the database 
+ └── student.db # SQLite database file (auto-created)
+```
 
 ---
 
